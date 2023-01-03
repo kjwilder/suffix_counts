@@ -1,4 +1,4 @@
-# Project Gutenbert Webster's Dictionary words.
+# Project Gutenberg Webster's Dictionary words.
 A
 AAM
 AARDVARK
