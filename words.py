@@ -7,5 +7,5 @@ for word in open('words.txt'):
     suffixes[suffix].add(first_letter)
 for suffix in sorted(suffixes, key=lambda x: (len(suffixes[x]), x)):
     num_words = len(suffixes[suffix])
-    first_letters = " ".join(sorted(suffixes[suffix]))
+    first_letters = ' '.join(sorted(suffixes[suffix]))
     print(f'{num_words:>2} {suffix:<22} [{first_letters}]')
