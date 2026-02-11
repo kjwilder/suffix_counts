@@ -7,8 +7,8 @@ from collections import defaultdict
 def parse_args(argv):
     parser = argparse.ArgumentParser(prog="words")
     parser.add_argument(
-        "-d",
-        "--dictionary_file",
+        "dictionary_file",
+        nargs="?",
         default="words.txt",
         help="Text file containing words, one per line",
     )
